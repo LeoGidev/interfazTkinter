@@ -18,3 +18,7 @@ def load_file(self):
         if file_path:
             self.file_path = file_path
             messagebox.showinfo("Archivo Cargado", "Archivo cargado con éxito")
+
+def generate_table(self):
+        
+        messagebox.showinfo("Generar", "Generando tabla...")
