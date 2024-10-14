@@ -10,3 +10,5 @@ class FootballApp:
         self.label.pack(pady=10)
         self.load_button = tk.Button(root, text="Cargar Archivo de Google Drive", command=self.load_file)
         self.load_button.pack(pady=5)
+        self.generate_button = tk.Button(root, text="Generar Tabla", command=self.generate_table)
+        self.generate_button.pack(pady=5)
