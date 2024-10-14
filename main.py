@@ -4,3 +4,4 @@ import pandas as pd
 
 class FootballApp:
     def __init__(self, root):
+        self.root = root
