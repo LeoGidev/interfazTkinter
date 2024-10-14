@@ -12,3 +12,9 @@ class FootballApp:
         self.load_button.pack(pady=5)
         self.generate_button = tk.Button(root, text="Generar Tabla", command=self.generate_table)
         self.generate_button.pack(pady=5)
+
+def load_file(self):
+        file_path = filedialog.askopenfilename()
+        if file_path:
+            self.file_path = file_path
+            messagebox.showinfo("Archivo Cargado", "Archivo cargado con éxito")
