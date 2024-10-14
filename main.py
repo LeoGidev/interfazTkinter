@@ -22,3 +22,9 @@ def load_file(self):
 def generate_table(self):
         
         messagebox.showinfo("Generar", "Generando tabla...")
+
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = FootballApp(root)
+    root.mainloop()
