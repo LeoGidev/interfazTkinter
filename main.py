@@ -6,3 +6,5 @@ class FootballApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Tabla de posiciones")
+        self.label = tk.Label(root, text="Generador de Tabla de Posiciones")
+        self.label.pack(pady=10)
